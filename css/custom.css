@@ -2,12 +2,8 @@ body {
   padding-top: 75px;
 }
 
-.starter-template {
-  padding: 40px 15px;
-  text-align: center;
-}
-
 .fixed-footer {
+  /* To be updated with CSS sticky footer */
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -23,27 +19,4 @@ body {
 
 .alert > a {
   color: grey;
-}
-
-.musicplayer {
-  max-width: 500px;
-  padding-top: 20px;
-  margin: auto;
-}
-
-.img-responsive, .carousel {
-  margin-bottom: 10px;
-}
-
-.carousel {
-  max-width: 1072px;
-  margin: auto;
-}
-
-.carousel-inner > .item > img {
-  min-width: 100%;
-}
-
-.glyphicon {
-  margin-top: 225%;
 }
