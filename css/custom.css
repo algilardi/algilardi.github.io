@@ -1,9 +1,14 @@
+html, body {
+  height: 100%;
+}
+
 body {
   padding-top: 75px;
 }
 
-.fixed-footer {
-  /* To be updated with CSS sticky footer */
+.footer {
+  text-align: center;
+  margin: auto;
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -11,10 +16,14 @@ body {
   height: 50px;
 }
 
+.container {
+  height: 100%;
+}
+
 .resume {
-  width: 900px;
-  margin-left: auto;
-  margin-right: auto;
+  height: 100%;
+  margin: auto;
+  text-align: center;
 }
 
 .alert > a {
