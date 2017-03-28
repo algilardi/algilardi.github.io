@@ -49,7 +49,7 @@
       <!--Ball is Life-->
       <div class="row">
         <div class="col-sm-5 col-md-4 col-lg-4">
-          <img src="../images/projects-ball.png" alt="Ball is Life image" class="img-responsive">
+          <img src="../images/projects-ball.png" alt="Ball is Life image" class="img-responsive" id="img1">
         </div>
         <div class="col-sm-7 col-md-8 col-lg-8">
           <h3><a href="http://ag-ball-is-life.herokuapp.com/" target="_blank">Ball is Life</a></h3>
@@ -104,6 +104,13 @@
       </div>
       <!-- End -->
 
+      <div id="img-modal" class="modal">
+        <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="modal-img1">
+      </div>
+
     </div>
 
   <footer class="footer">
@@ -117,5 +124,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Link to Bootstrap's JavaScript plugins -->
     <script src="../js/bootstrap.min.js"></script>
+    <!-- Image script -->
+    <script src="../js/image.js"></script>
   </body>
 </html>
