@@ -33,6 +33,10 @@ span {
   z-index: 1;
 }
 
+.right {
+  float: right;
+}
+
 .clickable-img {
   cursor: pointer;
   transition: 0.3s;
