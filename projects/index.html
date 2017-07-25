@@ -10,10 +10,12 @@
     <!-- Above three meta tags should come first -->
     <title>Al Gilardi</title>
 
+    <!--Lightbox CSS -->
+    <link rel="stylesheet" href="../css/lightbox.min.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="../css/custom.css">
+    <link rel="stylesheet" href="../css/style.css">
     <script src="../js/analytics.js"></script>
   </head>
 
@@ -49,7 +51,7 @@
       <!--Ball is Life-->
       <div class="row">
         <div class="col-sm-5 col-md-4 col-lg-4">
-          <img src="../images/projects-ball.png" alt="Ball is Life image" class="img-responsive clickable-img" id="ball-img">
+          <a href="../images/projects-ball.png" data-lightbox="image-ball" data-title="Ball is Life Homepage"><img src="../images/projects-ball.png" alt="Ball is Life image" class="img-responsive clickable-img"></a>
         </div>
         <div class="col-sm-7 col-md-8 col-lg-8">
           <h3><a href="http://ag-ball-is-life.herokuapp.com/" target="_blank">Ball is Life</a></h3>
@@ -64,7 +66,7 @@
       <!--Coat for Arms-->
       <div class="row project">
         <div class="col-sm-5 col-md-4 col-lg-4 right">
-          <img src="../images/projects-coat.png" alt="Coat for Arms image" class="img-responsive clickable-img" id="coat-img">
+          <a href="../images/projects-coat.png" data-lightbox="image-coat" data-title="Coat for Arms Login"><img src="../images/projects-coat.png" alt="Coat for Arms image" class="img-responsive clickable-img"></a>
         </div>
         <div class="col-sm-7 col-md-8 col-lg-8">
           <h3>Coat for Arms</h3>
@@ -78,8 +80,8 @@
 
       <!--MTG Booster Tutor-->
       <div class="row project">
-        <div class="col-sm-5 col-md-4 col-lg-4">
-          <img src="../images/projects-mtg.png" alt="MTG Booster Tutor image" class="img-responsive clickable-img" id="mtg-img">
+        <div class="col-sm-5 col-md-4 col-lg-4 right">
+          <a href="../images/projects-mtg.png" data-lightbox="image-mtg" data-title="Pack Opening"><img src="../images/projects-mtg.png" alt="MTG Booster Tutor image" class="img-responsive clickable-img"></a>
         </div>
         <div class="col-sm-7 col-md-8 col-lg-8">
           <h3>MTG Booster Tutor</h3>
@@ -93,26 +95,16 @@
 
       <!--Catan-->
       <div class="row project">
-        <div class="col-sm-5 col-md-4 col-lg-4 right">
-          <img src="../images/projects-catan.png" alt="Settlers of Catan image" class="img-responsive clickable-img" id="catan-img">
+        <div class="col-sm-5 col-md-4 col-lg-4">
+          <a href="../images/projects-catan.png" data-lightbox="image-catan" data-title="Settlers of Catan"><img src="../images/projects-catan.png" alt="Settlers of Catan image" class="img-responsive clickable-img"></a>
         </div>
         <div class="col-sm-7 col-md-8 col-lg-8">
           <h3>Settlers of Catan</h3>
-          <p>For a high school group project, me and my group recreated the popular board game <a href="https://en.wikipedia.org/wiki/Catan">Settlers of Catan</a>. It supports up to four players on the same machine, with a working graphical interface.</a><br><br></p>
+          <p>For a high school group project, me and my group recreated the popular board game <a href="https://en.wikipedia.org/wiki/Catan">Settlers of Catan</a>. It supports up to four players on the same machine, with a working graphical interface.<br><br></p>
           <p class="langs"><strong>Languages/Technologies used:</strong> Java, Processing</p>
         </div>
       </div>
       <!-- End -->
-
-      <!-- Image modal code from: https://www.w3schools.com/howto/howto_css_modal_images.asp -->
-
-      <div id="img-modal" class="modal">
-        <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
-
-        <!-- Modal Content (The Image) -->
-        <img class="modal-content" id="modal-img">
-      </div>
-
     </div>
 
   <footer class="footer">
@@ -122,11 +114,11 @@
     </div>
   </footer>
 
-    <!-- jQuery (necessary for Bootstrap JavaScript) -->
+    <!-- jQuery  -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Link to Bootstrap's JavaScript plugins -->
     <script src="../js/bootstrap.min.js"></script>
-    <!-- Image script -->
-    <script src="../js/image.js"></script>
+    <!-- lightbox -->
+    <script src="../js/lightbox.min.js"></script>
   </body>
 </html>
