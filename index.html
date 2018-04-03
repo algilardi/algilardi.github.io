@@ -1,76 +1,279 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<html>
-  <head>
+<head>
+
     <meta charset="utf-8">
-    <!-- Specify legacy document mode for Internet Explorer -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- Settings for responsive layout -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Above three meta tags should come first -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
     <title>Al Gilardi</title>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!--Lightbox CSS -->
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin:700" rel="stylesheet" type="text/css">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
     <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="./css/style.css">
-    <script src="js/analytics.js"></script>
-  </head>
+    <link href="css/style.min.css" rel="stylesheet">
 
-  <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <a href="" class="navbar-brand">Al Gilardi</a>
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle Navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
+</head>
 
+<body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">Al Gilardi</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fa fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#resume">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"> <a href="./">About</a></li>
-            <li> <a href="resume/">Resume</a></li>
-            <li> <a href="projects/">Projects</a></li>
-            <li> <a href="mailto:algilardi95@gmail.com" target="_top">Contact Me</a> </li>
-          </ul>
-        </div>
-      </div>
     </nav>
 
-    <div class="container">
-
-      <div class="page-header">
-        <h1>About Me </h1>
-      </div>
-
-      <div class="row">
-
-        <div class="col-sm-5 col-md-4 col-lg-3">
-          <img src="./images/me.png" alt="Me" class="img-responsive ">
+    <!-- Intro Header -->
+    <header class="masthead">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h1 class="brand-heading mx-auto">Al Gilardi</h1>
+                        <p class="intro-text mx-auto">NYC-Based Full Stack Software Engineer</p>
+                        <a href="#about" class="btn btn-circle js-scroll-trigger">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-sm-7 col-md-8 col-lg-9">
-          <p class="lead">I'm Al. I recently graduated from NYU with a degree in Computer Science, and minors in History and Math. This is my personal site for hosting my resume as well as some of the projects I've completed, feel free to have a look around.<br><br>
-          When I'm not coding, I enjoy basketball, playing the guitar, weightlifting, gaming, and learning about history.<br><br>
-          <strong>You can also check me out on <a href="https://www.linkedin.com/in/algilardi/" target="_blank">LinkedIn</a> and <a href="https://github.com/algilardi" target="_blank">GitHub</a>.</strong><br></p>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="content-section about-section text-center">
+        <div class="container">
+            <div class="col-lg-8 mx-auto">
+                <img src="./img/me.png" alt="Me" class="img-responsive img-me">
+                <p>Hi, I'm Al. I'm a Full-Stack Software Engineer from NYC.
+                    I graduated from NYU last year with a degree in CS, and minors in Math and History.
+                    When I'm not busy coding, I enjoy basketball, powerlifting, gaming, and studying history.
+                    Here you'll find some personal projects I've worked on, my resume, and other information.
+                </p>
+            </div>
+
         </div>
-      </div>
-    </div>
+    </section>
 
-    <footer class="footer footer-about">
-      <div class="container">
-        <hr />
-        <p class="text-muted text-center"> Created by Al Gilardi • 2017</p>
-      </div>
-    </footer>
+    <!-- Projects Section -->
+    <section id="projects" class="container content-section projects-section">
+        <h1 class="text-center">Projects</h1>
+        <!--Readmore-->
+        <div class="row project">
+            <div class="col-sm-5 col-md-4 col-lg-4">
+                <a href="img/projects-read.png" class="img-responsive clickable-img" data-lightbox="image-read" data-title="Searching for a book"><img src="img/projects-read.png" alt="Readmore image"></a>
+            </div>
+            <div class="col-sm-7 col-md-8 col-lg-8">
+                <h4>Readmore</h4>
+                <p>
+                    <a href="" target="_blank">Live (Coming Soon)</a> | <a href="https://github.com/algilardi/readmore" target="_blank">Github</a><br>
+                    A book for those trying to read more. Allows users to search for, log, and rate books they are currently reading, have read, or plan to read. Users can also view the most read or highest rated books recorded by all users.
+                </p>
+                <p class="langs"><strong>Languages/Technologies used:</strong> JavaScript, React, Redux, Node.js, Express, MongoDB, HTML, CSS, Webpack, Google Books API</p>
+            </div>
+        </div>
+        <!-- End -->
 
-    <!-- jQuery (necessary for Bootstrap JavaScript) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Link to Bootstrap's JavaScript plugins -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
-</html>
+        <!--Ball is Life-->
+        <div class="row project">
+            <div class="col-sm-5 col-md-4 col-lg-4">
+                <a href="img/projects-ball.png" class="img-responsive clickable-img" data-lightbox="image-ball" data-title="Ball is Life Homepage"><img src="img/projects-ball.png" alt="Ball is Life image"></a>
+            </div>
+            <div class="col-sm-7 col-md-8 col-lg-8">
+                <h4>Ball is Life</h4>
+                <p>
+                    <a href="http://ag-ball-is-life.herokuapp.com/" target="_blank">Live</a> | <a href="https://github.com/algilardi/ball-is-life" target="_blank">Github</a><br>
+                    A social media app for basketball fans. Users can post and comment on highlight clips, and view clips by specific team or user who submitted it.
+                </p>
+                <p class="langs"><strong>Languages/Technologies used:</strong> JavaScript, Node.js, Express, MongoDB, HTML, CSS, SASS, Handlebars, Grunt</p>
+            </div>
+        </div>
+        <!-- End -->
+
+        <!--MTG Booster Tutor-->
+        <div class="row project">
+            <div class="col-sm-5 col-md-4 col-lg-4">
+                <a href="img/projects-mtg.png" data-lightbox="image-mtg" data-title="Pack Opening"><img src="img/projects-mtg.png" alt="MTG Booster Tutor image" class="img-responsive clickable-img"></a>
+            </div>
+            <div class="col-sm-7 col-md-8 col-lg-8">
+                <h4>MTG Booster Tutor</h4>
+                <p>
+                    <a href="https://github.com/algilardi/boostertutor" target="_blank">Github</a><br>
+                    An iOS mini-game app for fans of the popular trading card game <a href="https://en.wikipedia.org/wiki/Magic:_The_Gathering" target="_blank">Magic: the Gathering</a>. Users can simulate opening packs of cards, simulate a <a href="http://magic.wizards.com/en/articles/archive/how-play-limited/how-booster-draft-2016-04-05" target="_blank">"draft,"</a> and view lists of all the possible cards contained for each pack. Created with my friend <a href="https://github.com/AdamYLiang" target="_blank">Adam</a>.
+                </p>
+                <p><strong>Languages/Technologies used:</strong> Objective-C, MTGJson API</p>
+            </div>
+        </div>
+        <!-- End -->
+
+
+        <!--Coat for Arms-->
+        <div class="row project">
+            <div class="col-sm-5 col-md-4 col-lg-4">
+                <a href="img/projects-coat.png" data-lightbox="image-coat" data-title="Coat for Arms Login"><img src="img/projects-coat.png" alt="Coat for Arms image" class="img-responsive clickable-img"></a>
+            </div>
+            <div class="col-sm-7 col-md-8 col-lg-8">
+                <h4>Coat for Arms</h4>
+                <p>A weather app created at HackRPI 2014. It gives users recommendations on what to wear, based on weather information at their location and preset preferences for their cold/heat tolerance.</p>
+                <p><strong>Languages/Technologies used:</strong> JavaScript, Node.js, MongoDB, HTML, CSS, Google Maps API, OpenWeatherMap API</p>
+            </div>
+        </div>
+        <!-- End -->
+        <!--Catan-->
+        <div class="row project">
+            <div class="col-sm-5 col-md-4 col-lg-4">
+                <a href="img/projects-catan.png" data-lightbox="image-catan" data-title="Settlers of Catan"><img src="img/projects-catan.png" alt="Settlers of Catan image" class="img-responsive clickable-img"></a>
+            </div>
+            <div class="col-sm-7 col-md-8 col-lg-8">
+                <h4>Settlers of Catan</h4>
+                <p>
+                    <a href="https://github.com/algilardi/catan-project" target="_blank">Github</a><br>
+                    A high-school project: a recreation of the popular board game <a href="https://en.wikipedia.org/wiki/Catan">Settlers of Catan</a>. It supports up to four players playing on the same machine, with a UI developed using processing.
+                </p>
+                <p><strong>Languages/Technologies used:</strong> Java, Processing</p>
+            </div>
+        </div>
+        <!-- End -->
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume-section content-section">
+        <div class="text-center header">
+            <h1>Resume</h1>
+            <a href="#">See full PDF version</a>
+        </div>
+        <div class="container">
+            <div class="col-lg-10 mx-auto">
+                <h5>Education</h5>
+                <hr />
+                <div class="row">
+                    <div class="col-8">
+                        <span><strong>B.A. Computer Science</strong>, New York University</span>
+                    </div>
+                    <div class="col-4 text-right">
+                        <span>May 2017</span>
+                    </div>
+                </div>
+                <h5>Languages and Technologies</h5>
+                <hr />
+                <div>
+                    <span><strong>Proficient:</strong> Javascript, React, Redux, Node.js, Express, jQuery, HTML5, CSS3, Java, MongoDB, Git </span><br/>
+                    <span><strong>Exposure:</strong> Python, Django, C, Objective-C, Mocha, Sass, Grunt, SQL, PostgreSQL, AWS, Heroku</span>
+                </div>
+                <h5>Progessional Experience</h5>
+                <hr />
+                <div class="row">
+                    <div class="col-9">
+                        <span><strong>NYU Institute of Mathematical Sciences</strong><br />
+                            &nbsp;Grader - Internet Technology | New York, NY</span>
+                        </div>
+                        <div class="col-3 text-right">
+                            <span>Sep. 2016 - May 2017</span>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>Collaborated with professor to provide comprehensive feedback for homework and projects in JavaScript and Node.js to over 45 students.</li>
+                        <li>Reduced grading time by more than 25% each week by programming Mocha.js test files to automate testing of JavaScript functions required for homework.</li>
+                        <li>Eliminated 30+ terminal commands per week from each engineer’s workload by developing Bash scripts to automate homework downloads and dependency installations.</li>
+                    </ul>
+                    <div class="row">
+                        <div class="col-9">
+                            <span><strong>NYU Bobst Library</strong><br />
+                                &nbsp;Desktop Support Assistant | New York, NY</span>
+                            </div>
+                            <div class="col-3 text-right">
+                                <span>Sep. 2015 - Aug. 2017</span>
+                            </div>
+                        </div>
+                        <ul>
+                            <li>Provided technical support for over 200 library employees and more than 25,000 undergraduate students, troubleshooting wi-fi connectivity issues and bugs in proprietary NYU software.</li>
+                            <li>Maintained over 100 public desktop computers and 18 printers, ensuring I/O devices functioned properly.</li>
+                            <li>Assisted 50 patrons daily with rentals and usage of library equipment (laptops, connection cables, projectors).</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="contact-section content-section text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <h2>Contact Me</h2>
+                            <ul class="list-inline banner-social-buttons">
+                                <li class="list-inline-item">
+                                    <a href="https://www.linkedin.com/in/algilardi/" class="btn btn-default btn-lg">
+                                        <i class="fa fa-linkedin-square "></i>
+                                        <span class="network-name">LinkedIn</span>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://github.com/algilardi" class="btn btn-default btn-lg">
+                                        <i class="fa fa-github"></i>
+                                        <span class="network-name">Github</span>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="mailto:algilardi95@gmail.com" class="btn btn-default btn-lg">
+                                        <i class="fa fa-envelope"></i>
+                                        <span class="network-name">Email</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer>
+                <div class="container text-center">
+                    <p>Copyright &copy; Alessandro Gilardi 2018</p>
+                </div>
+            </footer>
+
+            <!-- Bootstrap core JavaScript -->
+            <script src="vendor/jquery/jquery.min.js"></script>
+            <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+            <!-- Plugin JavaScript -->
+            <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+            <!-- lightbox -->
+            <script src="js/lightbox.min.js"></script>
+
+            <!-- Custom scripts for this template -->
+            <script src="js/actions.min.js"></script>
+
+        </body>
+
+        </html>
