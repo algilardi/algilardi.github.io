@@ -208,7 +208,6 @@ a:hover {
 
 #about {
   padding-top: 200px;
-  padding-bottom: 200px;
 }
 
 #about .img-me {
@@ -221,11 +220,11 @@ a:hover {
 
 #projects {
   padding-top: 50px;
-  padding-bottom: 150px;
+  padding-bottom: 25px;
 }
 
 #projects h4 {
-  margin-bottom: 5px;
+  margin: 5px 0;
 }
 
 #projects p {
@@ -238,7 +237,6 @@ a:hover {
 
 #resume {
   padding-top: 50px;
-  padding-bottom: 200px;
 }
 
 #resume h1 {
@@ -258,8 +256,37 @@ a:hover {
 }
 
 #contact {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 75px;
+  padding-bottom: 100px;
+}
+
+@media (min-width: 768px) {
+  #about {
+    padding-top: 200px;
+    padding-bottom: 150px;
+  }
+  #projects {
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+  #resume {
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+  #contact {
+    padding-top: 255px;
+    padding-bottom: 200px;
+  }
+}
+
+.contact-section {
+  color: white;
+  background: url("../img/nyc.png") no-repeat center center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .btn {
@@ -273,16 +300,16 @@ a:hover {
 }
 
 .btn-default {
-  color: #7C8A93;
-  border: 1px solid #7C8A93;
+  color: white;
+  border: 3px solid white;
   background-color: transparent;
 }
 
 .btn-default:focus, .btn-default:hover {
-  color: #DEEEF5;
-  border: 1px solid #7C8A93;
+  color: #7C8A93;
+  border: 3px solid white;
   outline: none;
-  background-color: #7C8A93;
+  background-color: white;
 }
 
 ul.banner-social-buttons {
@@ -308,7 +335,7 @@ ul.banner-social-buttons {
 
 footer {
   color: #7C8A93;
-  padding: 50px 0;
+  padding: 25px 0;
 }
 
 footer p {

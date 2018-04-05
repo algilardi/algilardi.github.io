@@ -206,25 +206,22 @@ a {
         max-width: 100%;
     }
     .right {
-      float: right;
+        float: right;
     }
 
     .clickable-img {
-      cursor: pointer;
-      transition: 0.3s;
-      border-radius: 3px;
+        cursor: pointer;
+        transition: 0.3s;
+        border-radius: 3px;
     }
 
     .clickable-img:hover {
-      opacity: 0.7;
+        opacity: 0.7;
     }
 }
 
 #about {
     padding-top: 200px;
-    padding-bottom: 200px;
-
-
     .img-me {
         position: relative;
         top: -100px;
@@ -232,14 +229,14 @@ a {
         max-height: 250px;
         border-radius: 30px;
     }
+
 }
 
 #projects {
     padding-top: 50px;
-    padding-bottom: 150px;
-
+    padding-bottom: 25px;
     h4 {
-        margin-bottom: 5px;
+        margin: 5px 0;
     }
 
     p {
@@ -254,8 +251,6 @@ a {
 
 #resume {
     padding-top: 50px;
-    padding-bottom: 200px;
-
     h1 {
         margin-bottom: 5px;
     }
@@ -274,8 +269,37 @@ a {
 }
 
 #contact {
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 75px;
+    padding-bottom: 100px;
+}
+
+@media (min-width: 768px) {
+    #about {
+        padding-top: 200px;
+        padding-bottom: 150px;
+    }
+    #projects {
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+    #resume {
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+    #contact {
+        padding-top: 255px;
+        padding-bottom: 200px;
+    }
+}
+
+.contact-section {
+    color: white;
+    background: url('../img/nyc.png') no-repeat center center scroll;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .btn {
@@ -291,15 +315,15 @@ a {
 }
 
 .btn-default {
-    color: $link;
-    border: 1px solid $link;
+    color: white;
+    border: 3px solid white;
     background-color: transparent;
     &:focus,
     &:hover {
-        color: $background;
-        border: 1px solid $link;
+        color: $link;
+        border: 3px solid white;
         outline: none;
-        background-color: $link;
+        background-color: white;
     }
 }
 
@@ -323,7 +347,7 @@ ul.banner-social-buttons {
 
 footer {
     color: $link;
-    padding: 50px 0;
+    padding: 25px 0;
     p {
         font-size: 14px;
 
