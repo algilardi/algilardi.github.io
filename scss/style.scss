@@ -298,6 +298,12 @@ a {
     }
 }
 
+@media (min-width: 1025px) {
+    #contact {
+        padding-bottom: 300px;
+    }
+}
+
 .contact-section {
     color: white;
     background: url('../img/nyc.png') no-repeat center center scroll;
